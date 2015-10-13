@@ -1,14 +1,11 @@
 /*
  * Turn.js responsive book
  */
-
-/*globals window, document, $*/
-
 (function () {
     'use strict';
 
     var module = {
-        ratio: 1.38,
+        ratio: 0.75, //1.38,
         init: function (id) {
             var me = this;
 
@@ -52,6 +49,8 @@
         plugins: function () {
             // run the plugin
             $(this.el).turn({
+                page : 5,
+                display: "single",
                 gradients: true,
                 acceleration: true
             });
@@ -62,3 +61,8 @@
 
     module.init('book');
 }());
+
+
+
+
+

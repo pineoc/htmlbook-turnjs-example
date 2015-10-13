@@ -16,19 +16,18 @@
     </feature>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <name>HelloCordova</name>
+    <name>htmlBook</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        html book app testing
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="pineoc@moon1000.net" href="">
+        Moon1000 inc. pineoc
     </author>
+    <preference name="DisallowOverscroll" value="true" />
     <content src="turn_test.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
 </widget>
