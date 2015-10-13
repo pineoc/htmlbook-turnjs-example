@@ -75,47 +75,7 @@ body.hide-overflow {
     height: auto;
 }
 
-#p1 {
-    height: 100%;
-    width: 100%;
-    background: #ccc url(../img/1.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
 
-#p2 {
-    background: #ccc url(../img/2.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p3 {
-    background: #ccc url(../img/3.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p4 {
-    background: #1b1b1b url(../img/4.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p5 {
-    background: #1b1b1b url(../img/5.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
 
 #aImg1 img {
     position: absolute;
