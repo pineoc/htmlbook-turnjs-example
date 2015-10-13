@@ -1,3 +1,7 @@
 #resources
 www/img
 www/video
+
+#platforms resources
+platforms/ios/www/img
+platforms/ios/www/video

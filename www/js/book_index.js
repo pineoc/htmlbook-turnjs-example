@@ -49,7 +49,7 @@
         plugins: function () {
             // run the plugin
             $(this.el).turn({
-                page : 5,
+                page : 6,
                 display: "single",
                 gradients: true,
                 acceleration: true

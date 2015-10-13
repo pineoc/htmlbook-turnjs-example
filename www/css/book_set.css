@@ -76,7 +76,9 @@ body.hide-overflow {
 }
 
 
-
+/*
+page 5 tags
+*/
 #aImg1 img {
     position: absolute;
     left: 8.7%;
@@ -91,5 +93,15 @@ body.hide-overflow {
     bottom: 21.8%;
     width: 26.83%;
     height: 28.82%;
+}
+
+
+/*
+page 6 tags
+*/
+#videoTurning {
+    position: absolute;
+    left: 7%;
+    bottom: 10%;
 }
 

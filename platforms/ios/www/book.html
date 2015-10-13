@@ -12,7 +12,8 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-    <link rel="stylesheet" href="css/turn_test.css" />
+    <link rel="stylesheet" href="css/book_set.css" />
+    <link rel="stylesheet" href="css/page_set.css" />
     <script src="js/jquery-2.1.4.js"></script>
     <script src="js/turn.js"></script>
     <script src="js/turn_func.js"></script>
@@ -20,8 +21,8 @@
 
 <body>
     <div id="popupDiv">
-        <img id="popupImg" src=""/>
-        <img id="popCloseBtn" src="img/closebtn.png" onclick="popClose()"/>
+        <img id="popupImg" src="" />
+        <img id="popCloseBtn" src="img/closebtn.png" onclick="popClose()" />
     </div>
     <div class="t">
         <div class="tc rel">
@@ -45,12 +46,20 @@
                         <a>Close</a>
                         <img src="img/5_2.jpg" alt="">
                     </div>
-
                 </div>
+                <div class="page" id="p6">
+                    <video id="videoTurning" width="74%" controls>
+                        <source src="video/turning.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="page" id="p7"></div>
+                <div class="page" id="p8"></div>
+                <div class="page" id="p9"></div>
+                <div class="page" id="p10"></div>
             </div>
         </div>
     </div>
-    <script type="application/javascript" src="js/turn_text.js"></script>
+    <script type="application/javascript" src="js/book_index.js"></script>
 </body>
 
 </html>

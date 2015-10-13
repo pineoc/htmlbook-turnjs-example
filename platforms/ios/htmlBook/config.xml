@@ -24,7 +24,7 @@
         Moon1000 inc. pineoc
     </author>
     <preference name="DisallowOverscroll" value="true" />
-    <content src="turn_test.html" />
+    <content src="book.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
