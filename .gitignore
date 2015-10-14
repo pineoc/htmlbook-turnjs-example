@@ -2,6 +2,9 @@
 www/img
 www/video
 
-#platforms resources
+#platforms resources - ios
 platforms/ios/www/img
 platforms/ios/www/video
+
+#platforms resources - android
+platforms/android/assets
