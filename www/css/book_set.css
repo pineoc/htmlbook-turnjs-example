@@ -70,9 +70,9 @@ body.hide-overflow {
 
 #popupImg {
     position: absolute;
-    max-width: 100%;
-    width:55%;
-    height: auto;
+    max-height: 100%;
+    width:auto;
+    height: 55%;
 }
 
 

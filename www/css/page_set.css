@@ -1,6 +1,4 @@
 #p1 {
-    height: 100%;
-    width: 100%;
     background: #ccc url(../img/1.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -70,6 +68,109 @@
 }
 #p10 {
     background: #ccc url(../img/10.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p11 {
+    background: #ccc url(../img/11.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#p12 {
+    background: #ccc url(../img/12.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#p13 {
+    background: #ccc url(../img/13.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#p14 {
+    background: #ccc url(../img/14.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#p15 {
+    background: #ccc url(../img/15.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#p16 {
+    background: #ccc url(../img/16.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p17 {
+    background: #ccc url(../img/17.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p18 {
+    background: #ccc url(../img/18.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p19 {
+    background: #ccc url(../img/19.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p20 {
+    background: #ccc url(../img/20.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p21 {
+    background: #ccc url(../img/21.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p22 {
+    background: #ccc url(../img/22.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p23 {
+    background: #ccc url(../img/23.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+#p24 {
+    background: #ccc url(../img/24.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;

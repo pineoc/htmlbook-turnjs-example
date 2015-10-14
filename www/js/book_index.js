@@ -21,6 +21,10 @@
                     $(me.el).turn('size', size.width, size.height);
                 });
             }
+            $("#book").bind("turning", function (event, page, view) {
+                document.getElementById("book_effect").play();
+            });
+
         },
         resize: function () {
             // reset the width and height to the css defaults
@@ -49,7 +53,7 @@
         plugins: function () {
             // run the plugin
             $(this.el).turn({
-                page : 6,
+                page: 6,
                 display: "single",
                 gradients: true,
                 acceleration: true
@@ -57,12 +61,8 @@
             // hide the body overflow
             document.body.className = 'hide-overflow';
         }
+
     };
 
     module.init('book');
 }());
-
-
-
-
-
