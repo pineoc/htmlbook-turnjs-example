@@ -24,8 +24,10 @@
         <source src="video/book.wav" style=""/>
     </audio>
     <div id="popupDiv">
-        <img id="popupImg" src="" />
-        <img id="popCloseBtn" src="img/closebtn.png" onclick="popClose()" />
+        <div id="popupImg">
+            <img id="popCloseBtn" src="img/closebtn.png" onclick="popClose()" />
+        </div>
+        
     </div>
     <div class="t">
         <div class="tc rel">
@@ -35,20 +37,12 @@
                 <div class="page" id="p3"></div>
                 <div class="page" id="p4"></div>
                 <div class="page" id="p5">
-                    <a id="aImg1" onclick="popImage('aImg1')" value="5_1">
+                    <a id="aImg5-1" onclick="popImage('aImg5-1')" value="5_1">
                         <img src="img/5_1.jpg" />
                     </a>
-                    <a id="aImg2" onclick="popImage('aImg2')" value="5_2">
+                    <a id="aImg5-2" onclick="popImage('aImg5-2')" value="5_2">
                         <img src="img/5_2.jpg" />
                     </a>
-                    <div id="popup5_1" style="display:none;">
-                        <a>Close</a>
-                        <img src="img/5_1.jpg" alt="">
-                    </div>
-                    <div id="popup5_2" style="display:none;">
-                        <a>Close</a>
-                        <img src="img/5_2.jpg" alt="">
-                    </div>
                 </div>
                 <div class="page" id="p6">
                     <video id="videoTurning" width="74%" controls>
@@ -68,14 +62,50 @@
                 <div class="page" id="p17"></div>
                 <div class="page" id="p18"></div>
                 <div class="page" id="p19"></div>
-                <div class="page" id="p20"></div>
-                <div class="page" id="p21"></div>
+                <div class="page" id="p20">
+                    <a id="aImg20-1" onclick="popImage('aImg20-1')" value="20_1">
+                        <img src="img/20-1-btn.png" />
+                    </a>
+                    <a id="aImg20-2" onclick="popImage('aImg20-2')" value="20_2">
+                        <img src="img/20-2-btn.png" />
+                    </a>
+                    <a id="aImg20-3" onclick="popImage('aImg20-3')" value="20_3" style="display:none;">
+                        <img src="img/20_3.jpg" />
+                    </a>
+                    <a id="aImg20-4" onclick="popImage('aImg20-4')" value="20_4">
+                        <img src="img/20-3-btn.png" />
+                    </a>
+                </div>
+                <div class="page" id="p21">
+                    <a id="aImg21-1" onclick="popImage('aImg21-1')" value="21_1">
+                        <img src="img/21-1-btn.png" />
+                    </a>
+                    <a id="aImg21-2" onclick="popImage('aImg21-2')" value="21_2">
+                        <img src="img/21-2-btn.png" />
+                    </a>
+                    <a id="aImg21-3" onclick="popImage('aImg21-3')" value="21_3">
+                        <img src="img/21-3-btn.png" />
+                    </a>
+                    <a id="aImg21-4" onclick="popImage('aImg21-4')" value="21_4">
+                        <img src="img/21-4-btn.png" />
+                    </a>
+                    <a id="aImg21-5" onclick="popImage('aImg21-5')" value="21_5">
+                        <img src="img/21-5-btn.png" />
+                    </a>
+                </div>
                 <div class="page" id="p22"></div>
-                <div class="page" id="p23"></div>
+                <div class="page" id="p23">
+                    <video id="videoOkgo" width="74%" controls>
+                        <source src="video/okgo.mp4" type="video/mp4">
+                    </video>
+                    <a id="okgoLink"
+                       onclick="window.open('http://okgo.net/wotw');">      </a>
+                </div>
                 <div class="page" id="p24"></div>
             </div>
         </div>
     </div>
+    <script type="application/javascript" src="cordova.js"></script>
     <script type="application/javascript" src="js/book_index.js"></script>
 </body>
 

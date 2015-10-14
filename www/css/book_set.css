@@ -49,8 +49,7 @@ body.hide-overflow {
 }
 
 .book .page {
-    width:100%
-    height: 100%;
+    width: 100% height: 100%;
     background-color: #ccc;
 }
 
@@ -58,50 +57,27 @@ body.hide-overflow {
     max-width: 100%;
 }
 
+
+/*popup object setting*/
+
 #popupDiv {
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     display: none;
-    width:100%;
+    width: 100%;
     height: 100%;
     z-index: -1;
-    background : rgba(11,11,11,.5);
+    background: rgba(11, 11, 11, .5);
 }
 
 #popupImg {
-    position: absolute;
-    max-height: 100%;
-    width:auto;
-    height: 55%;
+    position: fixed;
+    width: auto;
+    height: 100%;
 }
 
-
-/*
-page 5 tags
-*/
-#aImg1 img {
+#popCloseBtn {
     position: absolute;
-    left: 8.7%;
-    bottom: 21.8%;
-    width: 20.4%;
-    height: 28.82%;
+    left: 90%;
+    bottom:100%;
 }
-
-#aImg2 img {
-    position: absolute;
-    left: 34.9%;
-    bottom: 21.8%;
-    width: 26.83%;
-    height: 28.82%;
-}
-
-
-/*
-page 6 tags
-*/
-#videoTurning {
-    position: absolute;
-    left: 7%;
-    bottom: 10%;
-}
-

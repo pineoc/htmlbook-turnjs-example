@@ -6,6 +6,7 @@
 
     var module = {
         ratio: 0.75, //1.38,
+        currPage: 1,
         init: function (id) {
             var me = this;
 
@@ -23,6 +24,7 @@
             }
             $("#book").bind("turning", function (event, page, view) {
                 document.getElementById("book_effect").play();
+                this.currPage = page;
             });
 
         },
@@ -50,10 +52,10 @@
                 height: height
             };
         },
-        plugins: function () {
+        plugins: function (pageNum) {
             // run the plugin
             $(this.el).turn({
-                page: 6,
+                page: 23,
                 display: "single",
                 gradients: true,
                 acceleration: true
@@ -61,8 +63,19 @@
             // hide the body overflow
             document.body.className = 'hide-overflow';
         }
-
     };
 
     module.init('book');
 }());
+
+var onDeviceReady = function () {
+    $("#okgoLink").tap(function () {
+        var ref = window.open('http://okgo.net/wotw', '_blank', 'location=yes');
+    });
+};
+
+var init = function () {
+    document.addEventListener('deviceready', onDeviceReady, false);
+};
+
+$(document).ready(init);

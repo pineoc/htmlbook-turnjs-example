@@ -6,31 +6,29 @@ function popImage(id) {
     var elem_val = document.getElementById(id).getAttribute("value");
     
     var $book = $(".book");
-    console.log('book size : ', $book.width(), $book.height());
     
     //pop div
     var popupDiv = document.getElementById("popupDiv");
     popupDiv.style.display = 'block';
+    popupDiv.setAttribute("width", $book.width() + 'px');
+    popupDiv.setAttribute("height", $book.height() + 'px');
     popupDiv.style.zIndex = 3;
     
     //image setting
     var popupImg = document.getElementById("popupImg");
-    popupImg.setAttribute("src", "img/" + elem_val.toString() + ".jpg"); // image source set
+    popupImg.style.background = "url(" + "img/" + elem_val + ".jpg) no-repeat center center"; // image source set
+    popupImg.style.backgroundSize = "contain";
     
     //size set
-    //popupImg.style.width = $book.width() * 0.5 + "px";
+    
+    popupImg.style.height = $book.height() * 0.8 + "px";
+    popupImg.style.width = $book.width() * 0.8 + "px";
     //position set
-    popupImg.style.left = (window.innerWidth - popupImg.clientWidth) / 2 + 'px';
-    popupImg.style.bottom = (window.innerHeight - popupImg.clientHeight) / 2 + 'px';
+    popupImg.style.left = (window.innerWidth - $('#popupImg').width()) / 2 + 'px';
+    popupImg.style.bottom = (window.innerHeight - $('#popupImg').height()) / 2 + 'px';
     //z index set
     popupImg.style.zIndex = 4;
-    console.log('img size : ', $("#popupImg").width(), $("#popupImg").height());
     
-    //popup close button
-    var popCloseBtn = document.getElementById("popCloseBtn");
-    popCloseBtn.style.position = 'absolute';
-    popCloseBtn.style.left = (window.innerWidth + popupImg.clientWidth) / 2 + 'px';
-    popCloseBtn.style.bottom = (window.innerHeight + popupImg.clientHeight) / 2 + 'px';
 }
 
 function popClose() {
