@@ -5,7 +5,7 @@
     'use strict';
 
     var module = {
-        ratio: 0.75, //1.38,
+        ratio: 0.75, //double: 1.38, single: 0.75
         currPage: 1,
         init: function (id) {
             var me = this;
@@ -55,7 +55,7 @@
         plugins: function (pageNum) {
             // run the plugin
             $(this.el).turn({
-                page: 23,
+                page: 1,
                 display: "single",
                 gradients: true,
                 acceleration: true
