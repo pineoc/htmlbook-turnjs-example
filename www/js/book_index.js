@@ -22,6 +22,7 @@
                     $(me.el).turn('size', size.width, size.height);
                 });
             }
+
             $("#book").bind("turning", function (event, page, view) {
                 document.getElementById("book_effect").play();
                 this.currPage = page;
@@ -67,6 +68,25 @@
 
     module.init('book');
 }());
+
+//swipe function
+$(function () {
+    //Enable swiping...
+    $(".t").swipe({
+        //Generic swipe handler for all directions
+        swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+            if(direction==='left') {
+                $("#book").turn("next");
+            }
+            else {
+                $("#book").turn("previous");
+            }
+        },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+        threshold: 75
+    });
+});
+
 
 var onDeviceReady = function () {
     $("#okgoLink").tap(function () {

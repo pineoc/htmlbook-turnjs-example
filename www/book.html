@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="css/page_set.css" />
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/turn.min.js"></script>
-    <script src="js/turn_func.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="js/turn_func.js"></script>
 </head>
 
 <body>
@@ -27,8 +28,11 @@
         <div id="popupImg">
             <img id="popCloseBtn" src="img/closebtn.png" onclick="popClose()" />
         </div>
-        
     </div>
+    <!--
+    <div id="touchArea">
+    </div>
+-->
     <div class="t">
         <div class="tc rel">
             <div class="book" id="book">
@@ -45,7 +49,7 @@
                     </a>
                 </div>
                 <div class="page" id="p6">
-                    <video id="videoTurning" width="74%" controls>
+                    <video id="videoTurning" width="74%" poster="video/turning_poster.png" controls>
                         <source src="video/turning.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -95,7 +99,7 @@
                 </div>
                 <div class="page" id="p22"></div>
                 <div class="page" id="p23">
-                    <video id="videoOkgo" width="74%" controls>
+                    <video id="videoOkgo" width="74%" poster="video/okgo_poster.png" controls>
                         <source src="video/okgo.mp4" type="video/mp4">
                     </video>
                     <a id="okgoLink"
@@ -106,7 +110,7 @@
         </div>
     </div>
     <script type="application/javascript" src="cordova.js"></script>
-    <script type="application/javascript" src="js/book_index.js"></script>
+    <script type="text/javascript" src="js/book_index.js"></script>
 </body>
 
 </html>

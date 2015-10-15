@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    background-color: #ccc;
+    background-color: #1b1b1b;
 }
 
 body.hide-overflow {
@@ -80,4 +80,11 @@ body.hide-overflow {
     position: absolute;
     left: 90%;
     bottom:100%;
+}
+
+#touchArea {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
