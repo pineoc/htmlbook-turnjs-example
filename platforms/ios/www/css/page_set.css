@@ -302,3 +302,7 @@
     -o-background-size: contain;
     background-size: contain;
 }
+
+img {
+    z-index : 2;
+}

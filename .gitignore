@@ -8,3 +8,6 @@ platforms/ios/www/video
 
 #platforms resources - android
 platforms/android/assets
+
+#plugins
+plugins
