@@ -14,6 +14,59 @@
     background-size: contain;
 }
 
+/*========page 2 tags=======*/
+.index-1 {
+    display: block;
+    position: absolute;
+    width: 15%;
+    height: 4%;
+    left: 9%;
+    top:25.5%;
+    border-width: 1px;
+    border-style: outset;
+}
+.index-2 {
+    display: block;
+    position: absolute;
+    width: 27%;
+    height: 10%;
+    left: 9%;
+    top:30.0%;
+    border-width: 1px;
+    border-style: outset;
+}
+.index-3 {
+    display: block;
+    position: absolute;
+    width: 42%;
+    height: 7%;
+    left: 9%;
+    top:53.8%;
+    border-width: 1px;
+    border-style: outset;
+}
+.index-4 {
+    display: block;
+    position: absolute;
+    width: 17%;
+    height: 4%;
+    left: 9%;
+    top:64.9%;
+    border-width: 1px;
+    border-style: outset;
+}
+.index-5 {
+    display: block;
+    position: absolute;
+    width: 17%;
+    height: 4%;
+    left: 9%;
+    top:69.7%;
+    border-width: 1px;
+    border-style: outset;
+}
+/*========page 2 tags=======*/
+
 #p3 {
     background: #ccc url(../img/3.jpg) no-repeat center center;
     -webkit-background-size: contain;

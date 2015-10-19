@@ -96,7 +96,7 @@ var module = {
         $(this.el).turn({
             page: 1,
             display: "single",
-            gradients: false,
+            gradients: true,
             acceleration: true
         });
         // hide the body overflow
@@ -150,9 +150,10 @@ var app = {
         });
 
         if ("Android" === device.platform) {
-            document.addEventListener("deviceready", gotFile, false);
+            document.addEventListener("deviceready", gotFile_turning, false);
 
-            function gotFile() {
+            //setup turning video 
+            function gotFile_turning() {
                 var fileTransfer = new FileTransfer();
                 var uri = encodeURI('cdvfile://localhost/temporary/turning.mp4');
 
@@ -173,6 +174,7 @@ var app = {
                 );
             }
 
+            //setup okgo video
             function gotFile_okgo() {
                 var fileTransfer = new FileTransfer();
                 var uri = encodeURI('cdvfile://localhost/temporary/okgo.mp4');
@@ -208,3 +210,9 @@ var app = {
 };
 
 app.initialize();
+/*
+for test
+var loadingPop = document.getElementById("loadingDiv");
+loadingPop.style.display = 'none';
+module.init('book');
+*/

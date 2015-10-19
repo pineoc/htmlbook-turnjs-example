@@ -42,3 +42,8 @@ function popClose() {
     popupImg.style.zIndex = -1;
 }
 
+function indexFunction(pageNum) {
+    'use strict';
+    $("#book").turn("page", parseInt(pageNum));
+}
+

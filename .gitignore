@@ -5,12 +5,14 @@ www/video
 #platforms resources - ios
 platforms/ios/www/img
 platforms/ios/www/video
+platforms/ios
 
 #platforms resources - android
 platforms/android/assets
 platforms/android/CordovaLib
 platforms/android/cordova
 platforms/android/platform_www
+platforms/android/build
 
 #plugins
 plugins
