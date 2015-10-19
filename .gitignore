@@ -13,6 +13,7 @@ platforms/android/CordovaLib
 platforms/android/cordova
 platforms/android/platform_www
 platforms/android/build
+platforms/android/.gradle
 
 #plugins
 plugins
