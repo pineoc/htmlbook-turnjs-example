@@ -53,7 +53,6 @@ var module = {
             this.currPage = page;
         });
         $("#book").bind("start", function (event, page, corner) {
-            console.log('page : ', page);
             if ('bl' == corner) {
                 event.preventDefault();
                 page.next = page.page;
@@ -62,6 +61,20 @@ var module = {
                 event.preventDefault();
                 page.next = page.page;
             }
+        });
+        
+        //Enable swiping...
+        $(".t").swipe({
+            //Generic swipe handler for all directions
+            swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+                if (direction === 'left') {
+                    $("#book").turn("next");
+                } else {
+                    $("#book").turn("previous");
+                }
+            },
+            //Default is 75px, set to 0 for demo so any distance triggers swipe
+            threshold: 75
         });
 
     },
@@ -135,20 +148,6 @@ var app = {
             });
         };
 
-        //Enable swiping...
-        $(".t").swipe({
-            //Generic swipe handler for all directions
-            swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
-                if (direction === 'left') {
-                    $("#book").turn("next");
-                } else {
-                    $("#book").turn("previous");
-                }
-            },
-            //Default is 75px, set to 0 for demo so any distance triggers swipe
-            threshold: 75
-        });
-
         if ("Android" === device.platform) {
             document.addEventListener("deviceready", gotFile_turning, false);
 
@@ -191,7 +190,7 @@ var app = {
                         });
                     },
                     function (error) {
-                        alert('download error source ' + error.source);
+                        alert('file load fail.');
                     }
                 );
             }
@@ -203,16 +202,16 @@ var app = {
             }
 
             function fail(error) {
-                alert('Error creating file [' + error.name + ']: ' + error.message);
+                alert('file load fail.');
             }
         }
     }
 };
 
 app.initialize();
-/*
-for test
+
+//for test
 var loadingPop = document.getElementById("loadingDiv");
 loadingPop.style.display = 'none';
 module.init('book');
-*/
+
