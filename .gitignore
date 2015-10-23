@@ -8,12 +8,7 @@ platforms/ios/www/video
 platforms/ios
 
 #platforms resources - android
-platforms/android/assets
-platforms/android/CordovaLib
-platforms/android/cordova
-platforms/android/platform_www
-platforms/android/build
-platforms/android/.gradle
+platforms/android
 
 #plugins
 plugins
