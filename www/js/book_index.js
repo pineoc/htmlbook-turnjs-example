@@ -86,7 +86,7 @@ var module = {
 
         var width = this.el.clientWidth,
             height = Math.round(width / this.ratio),
-            padded = Math.round(document.body.clientHeight * 0.9);
+            padded = Math.round(document.body.clientHeight);
 
         // if the height is too big for the window, constrain it
         if (height > padded) {
@@ -214,4 +214,8 @@ app.initialize();
 var loadingPop = document.getElementById("loadingDiv");
 loadingPop.style.display = 'none';
 module.init('book');
+
+$(document).ready(function() {
+    $(".fancybox").fancybox();
+});
 

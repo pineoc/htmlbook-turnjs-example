@@ -14,7 +14,9 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <link rel="stylesheet" href="css/book_set.css" />
     <link rel="stylesheet" href="css/page_set.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css"/>
     <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/turn.min.js"></script>
     <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
     <script type="text/javascript" src="js/turn_func.js"></script>
@@ -26,7 +28,7 @@
     </audio>
     <div id="popupDiv">
         <div id="popupImg">
-            <img id="popCloseBtn" src="img/closebtn.png" onclick="popClose()" />
+            <img id="popCloseBtn" class="inactive" src="img/closebtn.png" onclick="popClose()" />
         </div>
     </div>
     <div id="loadingDiv">
@@ -46,15 +48,16 @@
                 <div class="page" id="p3"></div>
                 <div class="page" id="p4"></div>
                 <div class="page" id="p5">
-                    <a id="aImg5-1" onclick="popImage('aImg5-1')" value="5_1">
+                    <a id="aImg5-1" class="fancybox" rel="group1" href="img/5_1.jpg" title="111">
                         <img src="img/5_1.jpg" />
                     </a>
-                    <a id="aImg5-2" onclick="popImage('aImg5-2')" value="5_2">
+                    <a id="aImg5-2" class="fancybox" rel="group1" href="img/5_2.jpg" title="222">
                         <img src="img/5_2.jpg" />
                     </a>
                 </div>
                 <div class="page" id="p6">
-                    <video id="videoTurning" src="video/turning.mp4" width="74%" poster="video/turning_poster.png" controls>
+                    <video id="videoTurning" src="video/turning.mp4" 
+                           width="74%" poster="video/turning_poster.png" controls>
                     </video>
                 </div>
                 <div class="page" id="p7"></div>
@@ -71,39 +74,40 @@
                 <div class="page" id="p18"></div>
                 <div class="page" id="p19"></div>
                 <div class="page" id="p20">
-                    <a id="aImg20-1" onclick="popImage('aImg20-1')" value="20_1">
+                    <a id="aImg20-1" class="fancybox" rel="group2" href="img/20_1.jpg" title="111">
                         <img src="img/20-1-btn.png" />
                     </a>
-                    <a id="aImg20-2" onclick="popImage('aImg20-2')" value="20_2">
+                    <a id="aImg20-2" class="fancybox" rel="group2" href="img/20_2.jpg" title="222">
                         <img src="img/20-2-btn.png" />
                     </a>
-                    <a id="aImg20-3" onclick="popImage('aImg20-3')" value="20_3" style="display:none;">
+                    <a id="aImg20-3" class="fancybox" rel="group2" href="img/20_3.jpg" style="display:none;" title="333">
                         <img src="img/20_3.jpg" />
                     </a>
-                    <a id="aImg20-4" onclick="popImage('aImg20-4')" value="20_4">
+                    <a id="aImg20-4" class="fancybox" rel="group2" href="img/20_4.jpg" title="444" >
                         <img src="img/20-3-btn.png" />
                     </a>
                 </div>
                 <div class="page" id="p21">
-                    <a id="aImg21-1" onclick="popImage('aImg21-1')" value="21_1">
+                    <a id="aImg21-1" class="fancybox" rel="group3" href="img/21_1.jpg" title="111">
                         <img src="img/21-1-btn.png" />
                     </a>
-                    <a id="aImg21-2" onclick="popImage('aImg21-2')" value="21_2">
+                    <a id="aImg21-2" class="fancybox" rel="group3" href="img/21_2.jpg" title="222">
                         <img src="img/21-2-btn.png" />
                     </a>
-                    <a id="aImg21-3" onclick="popImage('aImg21-3')" value="21_3">
+                    <a id="aImg21-3" class="fancybox" rel="group3" href="img/21_3.jpg" title="333">
                         <img src="img/21-3-btn.png" />
                     </a>
-                    <a id="aImg21-4" onclick="popImage('aImg21-4')" value="21_4">
+                    <a id="aImg21-4" class="fancybox" rel="group3" href="img/21_4.jpg" title="444">
                         <img src="img/21-4-btn.png" />
                     </a>
-                    <a id="aImg21-5" onclick="popImage('aImg21-5')" value="21_5">
+                    <a id="aImg21-5" class="fancybox" rel="group3" href="img/21_5.jpg" title="555">
                         <img src="img/21-5-btn.png" />
                     </a>
                 </div>
                 <div class="page" id="p22"></div>
                 <div class="page" id="p23">
-                    <video id="videoOkgo" src="video/okgo.mp4" width="74%" poster="video/okgo_poster.png" controls>
+                    <video id="videoOkgo" src="video/okgo.mp4" 
+                           width="74%" poster="video/okgo_poster.png" controls>
                     </video>
                     <a id="okgoLink" onclick="window.open('http://okgo.net/wotw');">      </a>
                 </div>

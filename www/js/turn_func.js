@@ -1,5 +1,16 @@
 //function for image popup
 
+//TODO : jquery animate function add for popup effect
+function jqtransition () {
+    $( "#popupImg" ).animate({}, {
+        duration: 500,
+        complete: function() {
+        // Animation complete.
+        console.log('animation complete');
+        }
+    });
+}
+/*
 function popImage(id) {
     'use strict';
     //get image tag value 
@@ -41,9 +52,14 @@ function popClose() {
     popupImg.setAttribute("src", "");
     popupImg.style.zIndex = -1;
 }
-
+*/
 function indexFunction(pageNum) {
     'use strict';
     $("#book").turn("page", parseInt(pageNum));
 }
+
+
+
+
+
 

@@ -73,7 +73,15 @@ body.hide-overflow {
 #popupImg {
     position: fixed;
     width: auto;
-    height: 100%;
+    height: 100%;    
+
+    /*
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+    -moz-transition: transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    */
+    
 }
 
 #popCloseBtn {
@@ -81,6 +89,8 @@ body.hide-overflow {
     left: 90%;
     bottom: 100%;
 }
+
+
 
 #loadingDiv {
     position: fixed;

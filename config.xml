@@ -9,6 +9,7 @@
     </author>
     <preference name="DisallowOverscroll" value="true" />
     <preference name="Fullscreen" value="true" />
+    <preference name="orientation" value="portrait" />
     <content src="book.html" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <access origin="*" />
