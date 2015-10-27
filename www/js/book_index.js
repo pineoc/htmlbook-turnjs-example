@@ -51,6 +51,8 @@ var module = {
         $("#book").bind("turning", function (event, page, view) {
             document.getElementById("book_effect").play();
             this.currPage = page;
+            //window.analytics.trackView('Page'+page.toString());
+            //console.log('pageNum : ' + page);
         });
         $("#book").bind("start", function (event, page, corner) {
             if ('bl' == corner) {
@@ -211,11 +213,11 @@ var app = {
 app.initialize();
 
 //for test
-
+/*
 var loadingPop = document.getElementById("loadingDiv");
 loadingPop.style.display = 'none';
 module.init('book');
-
+*/
 
 //fancybox setup
 $(document).ready(function() {
