@@ -211,11 +211,11 @@ var app = {
 app.initialize();
 
 //for test
-/*
+
 var loadingPop = document.getElementById("loadingDiv");
 loadingPop.style.display = 'none';
 module.init('book');
-*/
+
 
 //fancybox setup
 $(document).ready(function() {

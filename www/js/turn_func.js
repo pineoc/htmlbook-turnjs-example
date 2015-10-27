@@ -58,8 +58,9 @@ function indexFunction(pageNum) {
     $("#book").turn("page", parseInt(pageNum));
 }
 
-
-
-
+function goIndexFunction() {
+    'use strict';
+    $("#book").turn("page", 1);
+}
 
 
