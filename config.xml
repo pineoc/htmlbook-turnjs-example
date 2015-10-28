@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="net.moon1000.kingkongM8" 
         version="0.0.1"
-        android-versionCode="2"
+        android-versionCode="3"
         xmlns="http://www.w3.org/ns/widgets" 
         xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>kingkongMagazine</name>
@@ -16,7 +16,7 @@
     <preference name="orientation" value="portrait" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <content src="book.html" />
+    <content src="default.html" />
     
     <icon src="www/img/icons/icon.png"/>
     

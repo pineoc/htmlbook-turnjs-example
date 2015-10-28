@@ -1,5 +1,5 @@
 #p1 {
-    background: #ccc url(../img/1.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/1.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -7,68 +7,76 @@
 }
 
 #p2 {
-    background: #ccc url(../img/2.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/2.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
 }
 
+
 /*========page 2 tags=======*/
+
 .index-1 {
     display: block;
     position: absolute;
     width: 15%;
     height: 4%;
     left: 9%;
-    top:25.5%;
+    top: 25.5%;
     border-width: 1px;
     border-style: outset;
 }
+
 .index-2 {
     display: block;
     position: absolute;
     width: 27%;
     height: 10%;
     left: 9%;
-    top:30.0%;
+    top: 30.0%;
     border-width: 1px;
     border-style: outset;
 }
+
 .index-3 {
     display: block;
     position: absolute;
     width: 42%;
     height: 7%;
     left: 9%;
-    top:53.8%;
+    top: 53.8%;
     border-width: 1px;
     border-style: outset;
 }
+
 .index-4 {
     display: block;
     position: absolute;
     width: 17%;
     height: 4%;
     left: 9%;
-    top:64.9%;
+    top: 64.9%;
     border-width: 1px;
     border-style: outset;
 }
+
 .index-5 {
     display: block;
     position: absolute;
     width: 17%;
     height: 4%;
     left: 9%;
-    top:69.7%;
+    top: 69.7%;
     border-width: 1px;
     border-style: outset;
 }
+
+
 /*========page 2 tags=======*/
 
 #p3 {
-    background: #ccc url(../img/3.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/3.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -76,7 +84,7 @@
 }
 
 #p4 {
-    background: #ccc url(../img/4.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/4.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -84,14 +92,16 @@
 }
 
 #p5 {
-    background: #ccc url(../img/5.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/5.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
 }
 
+
 /*======page 5 tags=========*/
+
 #aImg5-1 img {
     position: absolute;
     left: 8.7%;
@@ -107,26 +117,32 @@
     width: 26.83%;
     height: 28.82%;
 }
+
+
 /*======page 5 tags=========*/
 
 #p6 {
-    background: #ccc url(../img/6.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/6.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
 }
 
+
 /*=======page 6 tags=========*/
+
 #videoTurning {
     position: absolute;
     left: 7%;
     bottom: 10%;
 }
+
+
 /*=======page 6 tags=========*/
 
 #p7 {
-    background: #ccc url(../img/7.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/7.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -134,7 +150,7 @@
 }
 
 #p8 {
-    background: #ccc url(../img/8.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/8.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -142,7 +158,7 @@
 }
 
 #p9 {
-    background: #ccc url(../img/9.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/9.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -150,7 +166,7 @@
 }
 
 #p10 {
-    background: #ccc url(../img/10.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/10.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -158,7 +174,7 @@
 }
 
 #p11 {
-    background: #ccc url(../img/11.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/11.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -166,7 +182,7 @@
 }
 
 #p12 {
-    background: #ccc url(../img/12.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/12.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -174,7 +190,7 @@
 }
 
 #p13 {
-    background: #ccc url(../img/13.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/13.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -182,7 +198,7 @@
 }
 
 #p14 {
-    background: #ccc url(../img/14.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/14.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -190,7 +206,7 @@
 }
 
 #p15 {
-    background: #ccc url(../img/15.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/15.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -198,7 +214,7 @@
 }
 
 #p16 {
-    background: #ccc url(../img/16.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/16.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -206,7 +222,7 @@
 }
 
 #p17 {
-    background: #ccc url(../img/17.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/17.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -214,7 +230,7 @@
 }
 
 #p18 {
-    background: #ccc url(../img/18.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/18.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -222,7 +238,7 @@
 }
 
 #p19 {
-    background: #ccc url(../img/19.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/19.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -230,13 +246,16 @@
 }
 
 #p20 {
-    background: #ccc url(../img/20.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/20.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
 }
+
+
 /*======page 20 tags=========*/
+
 #aImg20-1 img {
     position: absolute;
     left: 7.5%;
@@ -244,6 +263,7 @@
     width: 42.04%;
     height: 43.91%;
 }
+
 #aImg20-2 img {
     position: absolute;
     left: 50.3%;
@@ -251,6 +271,7 @@
     width: 42.21%;
     height: 26.52%;
 }
+
 #aImg20-3 img {
     position: absolute;
     left: 34.9%;
@@ -258,6 +279,7 @@
     width: 26.83%;
     height: 28.82%;
 }
+
 #aImg20-4 img {
     position: absolute;
     left: 50.29%;
@@ -265,16 +287,21 @@
     width: 42.33%;
     height: 16.82%;
 }
+
+
 /*======page 20 tags=========*/
 
 #p21 {
-    background: #ccc url(../img/21.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/21.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
 }
+
+
 /*======page 21 tags=========*/
+
 #aImg21-1 img {
     position: absolute;
     left: 7.35%;
@@ -314,10 +341,12 @@
     width: 42.23%;
     height: 27.82%;
 }
+
+
 /*======page 21 tags=========*/
 
 #p22 {
-    background: #ccc url(../img/22.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/22.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -325,37 +354,61 @@
 }
 
 #p23 {
-    background: #ccc url(../img/23.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/23.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
 }
+
+
 /*======page 23 tags=========*/
+
 #videoOkgo {
     position: absolute;
     left: 7%;
     bottom: 54%;
     width: 81%;
 }
+
 #okgoLink {
     position: absolute;
     display: block;
-    width:20%;
-    height:3%;
-    left:40%;
-    top:85%;
+    width: 20%;
+    height: 3%;
+    left: 40%;
+    top: 85%;
 }
+
+
 /*======page 23 tags=========*/
 
 #p24 {
-    background: #ccc url(../img/24.jpg) no-repeat center center;
+    background: #1b1b1b url(../img/24.jpg) no-repeat center center;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
 }
 
-img {
-    z-index : 2;
+#bgtest {
+    display:block;
+    overflow:auto;
+    width: 100%;
+    height: auto;
+}
+
+#bgtest img {
+    width: 100%;
+}
+
+.fit-bg {
+    position: relative;
+    overflow:auto;
+    width: 100%;
+    height: auto;
+}
+
+.fit-bg img {
+    width: 100%;
 }

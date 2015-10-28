@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/page_set.css" />
+    <link rel="stylesheet" href="css/book_set.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/book_func.js"></script>
+</head>
+
+<body>
+    <audio id="book_effect">
+        <source src="video/book.wav" />
+    </audio>
+    <div id="loadingDiv">
+        <div id="loader"></div>
+    </div>
+    <div id="goIndex" onclick="goHomeFunction()"></div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" id="p1"></div>
+            <div class="swiper-slide" id="p2">
+                <div class="fit-bg">
+                    <img src="img/2.jpg" />
+                    <a id="idx" class="index-1" onclick="indexFunction(3)"> </a>
+                    <a id="idx" class="index-2" onclick="indexFunction(4)"> </a>
+                    <a id="idx" class="index-3" onclick="indexFunction(19)"> </a>
+                    <a id="idx" class="index-4" onclick="indexFunction(23)"> </a>
+                    <a id="idx" class="index-5" onclick="indexFunction(24)"> </a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="p3"></div>
+            <div class="swiper-slide" id="p4"></div>
+            <div class="swiper-slide" id="p5">
+                <div class="fit-bg">
+                    <img src="img/5.jpg" />
+                    <a id="aImg5-1" class="fancybox" rel="group1" href="img/5_1.jpg">
+                        <img src="img/5_1.jpg" />
+                    </a>
+                    <a id="aImg5-2" class="fancybox" rel="group1" href="img/5_2.jpg">
+                        <img src="img/5_2.jpg" />
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="p6">
+                <div class="fit-bg">
+                    <img src="img/6.jpg" />
+                    <video id="videoTurning" src="video/turning.mp4" width="74%" poster="video/turning_poster.png" controls></video>
+                </div>
+            </div>
+            <div class="swiper-slide" id="p7"></div>
+            <div class="swiper-slide" id="p8"></div>
+            <div class="swiper-slide" id="p9"></div>
+            <div class="swiper-slide" id="p10"></div>
+            <div class="swiper-slide" id="p11"></div>
+            <div class="swiper-slide" id="p12"></div>
+            <div class="swiper-slide" id="p13"></div>
+            <div class="swiper-slide" id="p14"></div>
+            <div class="swiper-slide" id="p15"></div>
+            <div class="swiper-slide" id="p16"></div>
+            <div class="swiper-slide" id="p17"></div>
+            <div class="swiper-slide" id="p18"></div>
+            <div class="swiper-slide" id="p19"></div>
+            <div class="swiper-slide" id="p20">
+                <div class="fit-bg">
+                    <img src="img/20.jpg" />
+                    <a id="aImg20-1" class="fancybox" rel="group2" href="img/20_1.jpg">
+                        <img src="img/20-1-btn.png" />
+                    </a>
+                    <a id="aImg20-2" class="fancybox" rel="group2" href="img/20_2.jpg">
+                        <img src="img/20-2-btn.png" />
+                    </a>
+                    <a id="aImg20-3" class="fancybox" rel="group2" href="img/20_3.jpg" style="display:none;">
+                        <img src="img/20_3.jpg" />
+                    </a>
+                    <a id="aImg20-4" class="fancybox" rel="group2" href="img/20_4.jpg">
+                        <img src="img/20-3-btn.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="p21">
+                <div class="fit-bg">
+                    <img src="img/21.jpg" />
+                    <a id="aImg21-1" class="fancybox" rel="group3" href="img/21_1.jpg">
+                        <img src="img/21-1-btn.png" />
+                    </a>
+                    <a id="aImg21-2" class="fancybox" rel="group3" href="img/21_2.jpg">
+                        <img src="img/21-2-btn.png" />
+                    </a>
+                    <a id="aImg21-3" class="fancybox" rel="group3" href="img/21_3.jpg">
+                        <img src="img/21-3-btn.png" />
+                    </a>
+                    <a id="aImg21-4" class="fancybox" rel="group3" href="img/21_4.jpg">
+                        <img src="img/21-4-btn.png" />
+                    </a>
+                    <a id="aImg21-5" class="fancybox" rel="group3" href="img/21_5.jpg">
+                        <img src="img/21-5-btn.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="p22"></div>
+            <div class="swiper-slide" id="p23">
+                <div class="fit-bg">
+                    <img src="img/23.jpg" />
+                    <video id="videoOkgo" src="video/okgo.mp4" width="74%" poster="video/okgo_poster.png" controls>
+                    </video>
+                    <a id="okgoLink" onclick="window.open('http://okgo.net/wotw');"> </a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="p24"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/book_init.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        //init swiper
+        swiper = new Swiper('.swiper-container');
+    </script>
+</body>
+
+</html>

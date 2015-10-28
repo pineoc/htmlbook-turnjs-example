@@ -1,85 +1,33 @@
 html,
 body {
+    height: 100%;
+    background: #1b1b1b;
+    color: #1b1b1b;
     margin: 0;
-    height: 100%;
+    padding: 0;
 }
 
-body {
-    background-color: #1b1b1b;
-}
-
-body.hide-overflow {
-    overflow: hidden;
-}
-
-
-/* helpers */
-
-.t {
+.swiper-container {
     position: fixed;
-    display: table;
     width: 100%;
     height: 100%;
 }
 
-.tc {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-.rel {
-    position: relative;
-}
-
-
-/* book */
-
-.book {
-    overflow: hidden;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.book .page {
-    width: 100% height: 100%;
-    background-color: #ccc;
-}
-
-.book .page img {
-    max-width: 100%;
-}
-
-/*popup object setting
-
-#popupDiv {
-    position: fixed;
-    overflow: hidden;
-    display: none;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: rgba(11, 11, 11, .5);
-}
-
-#popupImg {
-    position: fixed;
-    width: auto;
-    height: 100%;
-}
-*/
-
-#popCloseBtn {
-    position: absolute;
-    left: 90%;
-    bottom: 100%;
+.swiper-slide {
+    background: #1b1b1b;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 
 #goIndex {
@@ -96,7 +44,7 @@ body.hide-overflow {
 #loadingDiv {
     position: fixed;
     overflow: hidden;
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     z-index: 3;
@@ -111,23 +59,42 @@ body.hide-overflow {
     height: 25%;
     background: url('../img/loader.png') no-repeat center center;
     background-size: contain;
-    margin-left: -12.5%;    /* -1 * image width / 2 */
-    margin-top: -12.5%;    /* -1 * image height / 2 */
+    margin-left: -12.5%;
+    /* -1 * image width / 2 */
+    margin-top: -12.5%;
+    /* -1 * image height / 2 */
     -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: mymove 5s infinite;
+    /* Chrome, Safari, Opera */
     animation: mymove 1.5s infinite;
 }
 
+
 /* Chrome, Safari, Opera */
+
 @-webkit-keyframes mymove {
-    0% {top: 50%;}
-    50% {top: 45.0%;}
-    100% {top: 50%;}
+    0% {
+        top: 50%;
+    }
+    50% {
+        top: 45.0%;
+    }
+    100% {
+        top: 50%;
+    }
 }
 
+
 /* Standard syntax */
+
 @keyframes mymove {
-    0% {top: 50%;}
-    50% {top: 45.0%;}
-    100% {top: 50%;}
+    0% {
+        top: 50%;
+    }
+    50% {
+        top: 45.0%;
+    }
+    100% {
+        top: 50%;
+    }
 }
