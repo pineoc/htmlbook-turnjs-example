@@ -206,6 +206,10 @@ var app = {
             function fail(error) {
                 alert('file load fail.');
             }
+        } else {
+            var loadingPop = document.getElementById("loadingDiv");
+            loadingPop.style.display = 'none';
+            module.init('book');
         }
     }
 };
