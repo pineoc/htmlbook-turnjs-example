@@ -22,7 +22,12 @@ $(document).ready(function() {
     function analytics_event_setup () {
         //set ga event
         $("#goIndex").click(function () {
-            window.analytics.trackEvent('click', 'homeBtn');
+            window.analytics.trackEvent('앱 활동', 'homeBtn 클릭');
+        });
+        
+        $(".fancybox").click(function () {
+            var target_img = $(this).attr('href');
+            window.analytics.trackEvent('앱 활동', '이미지 클릭', target_img);
         });
     }
 });

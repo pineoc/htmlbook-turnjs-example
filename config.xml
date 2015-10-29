@@ -33,6 +33,10 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="AndroidPersistentFileLocation" value="Internal" />
+        <icon src="www/img/icons/icon-36.png" density="ldpi" />
+        <icon src="www/img/icons/icon.png" density="mdpi" />
+        <icon src="www/img/icons/icon-72.png" density="hdpi" />
+        <icon src="www/img/icons/icon-96.png" density="xhdpi" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
