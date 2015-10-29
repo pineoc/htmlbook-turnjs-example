@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    overflow: hidden;
     background: #1b1b1b;
     color: #1b1b1b;
     margin: 0;
@@ -30,7 +31,7 @@ body {
     align-items: center;
 }
 
-#goIndex {
+#goHomeBtn {
     position: absolute;
     background: url(../img/home_60.png) no-repeat center center;
     background-size: contain;
@@ -40,6 +41,35 @@ body {
     height: 5%;
     z-index: 10;
 }
+
+#popIndexBtn {
+    position: absolute;
+    background: url(../img/index.png) no-repeat center center;
+    background-size: contain;
+    top: 3%;
+    right: 4%;
+    width: 7%;
+    height: 5%;
+    z-index: 11;
+}
+
+#indexDiv {
+    position: absolute;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(11, 11, 11, .9);
+    text-align: left;
+    padding: 20px;
+}
+
+.pop-text {
+    color:white;
+    max-width: 70%;
+}
+
 
 #loadingDiv {
     position: fixed;
