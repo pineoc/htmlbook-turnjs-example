@@ -12,3 +12,6 @@ platforms/android
 
 #plugins
 plugins/
+
+#data file
+www/js/analytics_value.js

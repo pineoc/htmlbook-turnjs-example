@@ -2,6 +2,10 @@
 
 //swiper var
 var swiper = null;
+var appStartTime = new Date().getTime();
+var beforePage = 1;
+var currPage = 1;
+var beforeTime = 0;
 
 //index function
 function indexFunction(pageNum) {
