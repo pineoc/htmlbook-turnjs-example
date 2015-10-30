@@ -15,3 +15,4 @@ plugins/
 
 #data file
 www/js/analytics_value.js
+www/js/data

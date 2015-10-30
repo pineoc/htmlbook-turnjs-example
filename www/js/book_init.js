@@ -119,6 +119,7 @@ function backbtnListener(){
 }
 */
 
+
 //fancybox setup
 $(document).ready(function () {
     $(".fancybox").fancybox();
