@@ -10,24 +10,24 @@ $(document).ready(function() {
         window.analytics.debugMode();
         
         //set GA id
-        window.analytics.startTrackerWithId('UA-68637631-4');
+        window.analytics.startTrackerWithId(ga_identification);
         
         //set user
         window.analytics.setUserId('USER_ID');
         
         //set home view
         window.analytics.trackView('Home Screen');
-        
-        //alert('analytics setup success');
     }
     
     function analytics_event_setup () {
         //set ga event
         $("#goIndex").click(function () {
-            //console.log('home clicked');
-            window.analytics.trackEvent('click', 'home');
+            window.analytics.trackEvent('앱 활동', 'homeBtn 클릭');
         });
         
-        
+        $(".fancybox").click(function () {
+            var target_img = $(this).attr('href');
+            window.analytics.trackEvent('앱 활동', '이미지 클릭', target_img);
+        });
     }
 });
