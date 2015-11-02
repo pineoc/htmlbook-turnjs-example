@@ -18,20 +18,21 @@ function onDeviceReady() {
             locale_name = locale.value.substring(0, 2);
 
             //file read
-            /*
+            
             $.getJSON("js/data/data-" + locale_name + ".json", function (data) {
                 locale_data = data;
                 global_index();
             });
-            */
+            
 
 
             //test locale
-            /**/
+            /*
             $.getJSON("js/data/data-en.json", function (data) {
                 locale_data = data;
                 global_index();
             });
+            */
             
             //popup text setting
             function global_index() {
