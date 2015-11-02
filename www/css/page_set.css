@@ -1,19 +1,3 @@
-#p1 {
-    background: #1b1b1b url(../img/1.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p2 {
-    background: #1b1b1b url(../img/2.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
 
 /*========page 2 tags=======*/
 
@@ -72,32 +56,8 @@
     border-style: outset;
 }
 
-
 /*========page 2 tags=======*/
 
-#p3 {
-    background: #1b1b1b url(../img/3.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p4 {
-    background: #1b1b1b url(../img/4.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p5 {
-    background: #1b1b1b url(../img/5.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
 
 
 /*======page 5 tags=========*/
@@ -118,17 +78,7 @@
     height: 28.82%;
 }
 
-
 /*======page 5 tags=========*/
-
-#p6 {
-    background: #1b1b1b url(../img/6.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
 
 /*=======page 6 tags=========*/
 
@@ -140,118 +90,6 @@
 
 
 /*=======page 6 tags=========*/
-
-#p7 {
-    background: #1b1b1b url(../img/7.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p8 {
-    background: #1b1b1b url(../img/8.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p9 {
-    background: #1b1b1b url(../img/9.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p10 {
-    background: #1b1b1b url(../img/10.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p11 {
-    background: #1b1b1b url(../img/11.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p12 {
-    background: #1b1b1b url(../img/12.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p13 {
-    background: #1b1b1b url(../img/13.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p14 {
-    background: #1b1b1b url(../img/14.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p15 {
-    background: #1b1b1b url(../img/15.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p16 {
-    background: #1b1b1b url(../img/16.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p17 {
-    background: #1b1b1b url(../img/17.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p18 {
-    background: #1b1b1b url(../img/18.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p19 {
-    background: #1b1b1b url(../img/19.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p20 {
-    background: #1b1b1b url(../img/20.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
 
 
 /*======page 20 tags=========*/
@@ -288,16 +126,8 @@
     height: 16.82%;
 }
 
-
 /*======page 20 tags=========*/
 
-#p21 {
-    background: #1b1b1b url(../img/21.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
 
 
 /*======page 21 tags=========*/
@@ -345,22 +175,6 @@
 
 /*======page 21 tags=========*/
 
-#p22 {
-    background: #1b1b1b url(../img/22.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
-#p23 {
-    background: #1b1b1b url(../img/23.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
-
 
 /*======page 23 tags=========*/
 
@@ -380,16 +194,8 @@
     top: 85%;
 }
 
-
 /*======page 23 tags=========*/
 
-#p24 {
-    background: #1b1b1b url(../img/24.jpg) no-repeat center center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-}
 
 #bgtest {
     display:block;

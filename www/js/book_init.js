@@ -92,40 +92,8 @@ var app = {
 
 app.initialize();
 
-//for test
-/*
-var OSName = "Unknown OS";
-if (navigator.appVersion.indexOf("Win") != -1) OSName = "Windows";
-if (navigator.appVersion.indexOf("Mac") != -1) OSName = "MacOS";
-if (navigator.appVersion.indexOf("X11") != -1) OSName = "UNIX";
-if (navigator.appVersion.indexOf("Linux") != -1) OSName = "Linux";
-if("MacOS" === OSName) {
-    var loadingPop = document.getElementById("loadingDiv");
-    loadingPop.style.display = 'none';
-}
-
-document.addEventListener("deviceready", backbtnListener, false);
-
-function backbtnListener(){
-    document.addEventListener("backbutton", function(e){
-       if($.mobile.activePage.is('#homepage')){
-           e.preventDefault();
-           navigator.app.exitApp();
-       }
-       else {
-           navigator.app.backHistory()
-       }
-    }, false);
-}
-*/
-
-
 //fancybox setup
 $(document).ready(function () {
     $(".fancybox").fancybox();
 });
-
-
-
-
 

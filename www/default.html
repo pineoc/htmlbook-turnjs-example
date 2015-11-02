@@ -28,16 +28,21 @@
     <div id="goHomeBtn" onclick="goHomeFunction()"></div>
     <div id="popIndexBtn" onclick="popUpIndexDiv()"></div>
     <div id="indexDiv">
-        <h2 class="pop-index-1 pop-text" onclick="popUpIndexFunction(3)">1. 편집장의 말</h2>
-        <h2 class="pop-index-2 pop-text" onclick="popUpIndexFunction(4)">2. 이 달의 특집기사 <br/>_터닝메카드를 아직도 몰라?</h2>
-        <h2 class="pop-index-3 pop-text" onclick="popUpIndexFunction(19)">3. 이 달의 전시안내 <br/>_아트 프로젝트 전시회</h2>
-        <h2 class="pop-index-4 pop-text" onclick="popUpIndexFunction(23)">4. 이 달의 동영상</h2>
-        <h2 class="pop-index-5 pop-text" onclick="popUpIndexFunction(24)">5. 만든 사람들</h2>
+        <h1 class="pop-index-title pop-text"></h1>
+        <h2 class="pop-index-1 pop-text" onclick="popUpIndexFunction(3)"></h2>
+        <h2 class="pop-index-2 pop-text" onclick="popUpIndexFunction(4)"></h2>
+        <h2 class="pop-index-3 pop-text" onclick="popUpIndexFunction(19)"></h2>
+        <h2 class="pop-index-4 pop-text" onclick="popUpIndexFunction(23)"></h2>
+        <h2 class="pop-index-5 pop-text" onclick="popUpIndexFunction(24)"></h2>
     </div>
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" id="p1"></div>
+            <div class="swiper-slide" id="p1">
+                <div class="fit-bg">
+                    <img src="img/1.jpg" />
+                </div>
+            </div>
             <div class="swiper-slide" id="p2">
                 <div class="fit-bg">
                     <img src="img/2.jpg" />
@@ -48,8 +53,16 @@
                     <a id="idx" class="index-5" onclick="indexFunction(24)"> </a>
                 </div>
             </div>
-            <div class="swiper-slide" id="p3"></div>
-            <div class="swiper-slide" id="p4"></div>
+            <div class="swiper-slide" id="p3">
+                <div class="fit-bg">
+                    <img src="img/3.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p4">
+                <div class="fit-bg">
+                    <img src="img/4.jpg" />
+                </div>
+            </div>
             <div class="swiper-slide" id="p5">
                 <div class="fit-bg">
                     <img src="img/5.jpg" />
@@ -67,19 +80,71 @@
                     <video id="videoTurning" src="video/turning.mp4" width="74%" poster="video/turning_poster.png" controls></video>
                 </div>
             </div>
-            <div class="swiper-slide" id="p7"></div>
-            <div class="swiper-slide" id="p8"></div>
-            <div class="swiper-slide" id="p9"></div>
-            <div class="swiper-slide" id="p10"></div>
-            <div class="swiper-slide" id="p11"></div>
-            <div class="swiper-slide" id="p12"></div>
-            <div class="swiper-slide" id="p13"></div>
-            <div class="swiper-slide" id="p14"></div>
-            <div class="swiper-slide" id="p15"></div>
-            <div class="swiper-slide" id="p16"></div>
-            <div class="swiper-slide" id="p17"></div>
-            <div class="swiper-slide" id="p18"></div>
-            <div class="swiper-slide" id="p19"></div>
+            <div class="swiper-slide" id="p7">
+                <div class="fit-bg">
+                    <img src="img/7.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p8">
+                <div class="fit-bg">
+                    <img src="img/8.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p9">
+                <div class="fit-bg">
+                    <img src="img/9.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p10">
+                <div class="fit-bg">
+                    <img src="img/10.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p11">
+                <div class="fit-bg">
+                    <img src="img/11.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p12">
+                <div class="fit-bg">
+                    <img src="img/12.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p13">
+                <div class="fit-bg">
+                    <img src="img/13.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p14">
+                <div class="fit-bg">
+                    <img src="img/14.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p15">
+                <div class="fit-bg">
+                    <img src="img/15.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p16">
+                <div class="fit-bg">
+                    <img src="img/16.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p17">
+                <div class="fit-bg">
+                    <img src="img/17.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p18">
+                <div class="fit-bg">
+                    <img src="img/18.jpg" />
+                </div>
+            </div>
+            <div class="swiper-slide" id="p19">
+                <div class="fit-bg">
+                    <img src="img/19.jpg" />
+                </div>
+            </div>
             <div class="swiper-slide" id="p20">
                 <div class="fit-bg">
                     <img src="img/20.jpg" />
@@ -117,7 +182,11 @@
                     </a>
                 </div>
             </div>
-            <div class="swiper-slide" id="p22"></div>
+            <div class="swiper-slide" id="p22">
+                <div class="fit-bg">
+                    <img src="img/22.jpg" />
+                </div>
+            </div>
             <div class="swiper-slide" id="p23">
                 <div class="fit-bg">
                     <img src="img/23.jpg" />
@@ -126,18 +195,27 @@
                     <a id="okgoLink" onclick="window.open('http://okgo.net/wotw');"> </a>
                 </div>
             </div>
-            <div class="swiper-slide" id="p24"></div>
+            <div class="swiper-slide" id="p24">
+                <div class="fit-bg">
+                    <img src="img/24.jpg" />
+                </div>
+            </div>
         </div>
     </div>
 
     <script type="text/javascript" src="cordova.js"></script>
     <!-- Swiper JS -->
     <script type="text/javascript" src="js/swiper.min.js"></script>
+    <!-- Google Analytics setup -->
     <script type="text/javascript" src="js/analytics_value.js"></script>
     <script type="text/javascript" src="js/analytics_init.js"></script>
-    <script type="text/javascript" src="js/book_init.js"></script>
+    <!-- Globalization setup -->
     <script type="text/javascript" src="js/globalization_init.js"></script>
+    <!-- make book using swiper -->
+    <script type="text/javascript" src="js/book_init.js"></script>
+    <!-- dialog setup -->
     <script type="text/javascript" src="js/dialog_func.js"></script>
+    
     <!-- Initialize Swiper -->
     <script>
         //init swiper

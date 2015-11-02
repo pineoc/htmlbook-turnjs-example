@@ -16,12 +16,14 @@ function analytics_setting() {
             //console.log('page1 time : ', sendTimeVal);
             window.analytics.trackTiming('페이지 이용시간', sendTimeVal, 'page1');
             window.analytics.trackEvent('페이지', '페이지 진입', currPage);
+            window.analytics.trackView('page1');
         } else {
             //page n -> page m
             var sendTimeVal = new Date().getTime() - beforeTime;
             //console.log('page'+ beforePage +' time : ', sendTimeVal);
             window.analytics.trackTiming('페이지 이용시간', sendTimeVal, 'page' + beforePage + ' time');
             window.analytics.trackEvent('페이지', '페이지 진입', currPage);
+            window.analytics.trackView('page' + beforePage);
             beforeTime = new Date().getTime();
         }
 

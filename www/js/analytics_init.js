@@ -7,13 +7,16 @@ $(document).ready(function() {
     function analytics_setup () {
         
         //set debug mode
-        window.analytics.debugMode();
+        //window.analytics.debugMode();
         
         //set GA id
         window.analytics.startTrackerWithId(ga_identification);
         
+        //check uuid
+        console.log('uuid : ', device.uuid);
+        
         //set user
-        window.analytics.setUserId('USER_ID');
+        window.analytics.setUserId(device.uuid);
         
         //set home view
         window.analytics.trackView('Home Screen');
@@ -28,6 +31,18 @@ $(document).ready(function() {
         $(".fancybox").click(function () {
             var target_img = $(this).attr('href');
             window.analytics.trackEvent('앱 활동', '이미지 클릭', target_img);
+        });
+        
+        $('video').click(function () {
+            var target_video = $(this).attr('id');
+            console.log('video clicked, ', target_video);
+            window.analytics.trackEvent('앱 활동', '동영상 클릭', target_video);
+        });
+        
+        $('video').on('play', function (e) {
+            var target_video = $(this).attr('id');
+            console.log('video play, ', target_video);
+            window.analytics.trackEvent('앱 활동', '동영상 재생', target_video);
         });
     }
 });
