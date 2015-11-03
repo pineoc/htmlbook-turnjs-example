@@ -32,6 +32,8 @@
     
     <platform name="android">
         <allow-intent href="market:*" />
+        <preference name="android-minSdkVersion" value="18" />
+        <preference name="android-targetSdkVersion" value="14" />
         <preference name="AndroidPersistentFileLocation" value="Internal" />
         <icon src="www/img/icons/icon-36.png" density="ldpi" />
         <icon src="www/img/icons/icon.png" density="mdpi" />
