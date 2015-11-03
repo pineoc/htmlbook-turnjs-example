@@ -66,7 +66,7 @@ var app = {
                             var nativePath = entry1.toURL();
                             document.querySelector("#videoOkgo").src = nativePath;
                             //file
-                            bookMake();
+                            initEnd();
                         });
                     },
                     function (error) {
@@ -75,9 +75,25 @@ var app = {
                 );
             }
             //function for book page make
-            function bookMake() {
+            function initEnd() {
+                //popup div deleted
                 var loadingPop = document.getElementById("loadingDiv");
                 loadingPop.style.display = 'none';
+                
+                /*
+                //function for full screen video but not enough to fix it
+                $(document).on('webkitfullscreenchange mozfullscreenchange fullscreenchange', function () {
+                    var so = cordova.plugins.screenorientation;
+                    console.log(so);
+                    so.setOrientation(so.Orientations[5]);//landscape
+                }, false);
+                
+                document.getElementById('videoTurning').addEventListener('pause', function () {
+                    var so = cordova.plugins.screenorientation;
+                    console.log(so);
+                    so.setOrientation(so.Orientations[4]);//portrait
+                }, false);
+                */
             }
 
             function fail(error) {
@@ -96,4 +112,3 @@ app.initialize();
 $(document).ready(function () {
     $(".fancybox").fancybox();
 });
-

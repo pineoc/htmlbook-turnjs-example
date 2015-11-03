@@ -7,12 +7,14 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-    <!-- Link Swiper's CSS -->
+    <!-- Link Swiper's CSS & fancybox's CSS -->
     <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <!-- book, page set CSS -->
     <link rel="stylesheet" href="css/page_set.css" />
     <link rel="stylesheet" href="css/book_set.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.css" />
 
+    <!-- jquery, fancybox javascript file  -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="js/book_func.js"></script>
@@ -211,15 +213,26 @@
     <script type="text/javascript" src="js/analytics_init.js"></script>
     <!-- Globalization setup -->
     <script type="text/javascript" src="js/globalization_init.js"></script>
-    <!-- make book using swiper -->
+    <!-- make book using swiper & some functions-->
     <script type="text/javascript" src="js/book_init.js"></script>
     <!-- dialog setup -->
     <script type="text/javascript" src="js/dialog_func.js"></script>
-    
+
     <!-- Initialize Swiper -->
     <script>
         //init swiper
         swiper = new Swiper('.swiper-container');
+
+        //video stop if page changed
+        swiper.on('slideChangeStart', function (s) {
+            //video check
+            //video stop, if playing 
+            var video_elems = $('video');
+            if (video_elems.get(0).paused == false)
+                video_elems.get(0).pause();
+            if (video_elems.get(1).paused == false)
+                video_elems.get(1).pause();
+        });
     </script>
     <script src="js/analytics_set.js"></script>
 </body>

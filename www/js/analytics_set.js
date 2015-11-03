@@ -26,6 +26,5 @@ function analytics_setting() {
             window.analytics.trackView('page' + beforePage);
             beforeTime = new Date().getTime();
         }
-
     });
 }

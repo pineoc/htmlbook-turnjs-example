@@ -12,9 +12,6 @@ $(document).ready(function() {
         //set GA id
         window.analytics.startTrackerWithId(ga_identification);
         
-        //check uuid
-        console.log('uuid : ', device.uuid);
-        
         //set user
         window.analytics.setUserId(device.uuid);
         
@@ -35,13 +32,13 @@ $(document).ready(function() {
         
         $('video').click(function () {
             var target_video = $(this).attr('id');
-            console.log('video clicked, ', target_video);
+            //console.log('video clicked, ', target_video);
             window.analytics.trackEvent('앱 활동', '동영상 클릭', target_video);
         });
         
         $('video').on('play', function (e) {
             var target_video = $(this).attr('id');
-            console.log('video play, ', target_video);
+            //console.log('video play, ', target_video);
             window.analytics.trackEvent('앱 활동', '동영상 재생', target_video);
         });
     }

@@ -8,9 +8,9 @@ target
 var locale_data;
 
 //first, check current locale
-document.addEventListener("deviceready", onDeviceReady, false);
+document.addEventListener("deviceready", globalization_func, false);
 
-function onDeviceReady() {
+function globalization_func() {
     var locale_name;
     //getLocaleName
     navigator.globalization.getLocaleName(
@@ -22,17 +22,16 @@ function onDeviceReady() {
             $.getJSON("js/data/data-" + locale_name + ".json", function (data) {
                 locale_data = data;
                 global_index();
-            });
+            }); 
             
-
-
-            //test locale
             /*
-            $.getJSON("js/data/data-en.json", function (data) {
+            //test locale
+            $.getJSON("js/data/data-ko.json", function (data) {
                 locale_data = data;
                 global_index();
             });
             */
+            
             
             //popup text setting
             function global_index() {
