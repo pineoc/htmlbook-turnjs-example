@@ -117,7 +117,6 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function () {
-        
         //book setting
         module.init('book');
     }

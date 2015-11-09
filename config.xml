@@ -16,7 +16,7 @@
     <preference name="orientation" value="portrait" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <content src="default.html" />
+    <content src="book.html" />
     
     <icon src="www/img/icons/icon.png"/>
     

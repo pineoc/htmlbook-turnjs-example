@@ -1,7 +1,7 @@
 
 
 
-//index function, turn('page',indexNum);
+//index function, go to pageNum turn('page', indexNum);
 function indexFunction(pageNum) {
     'use strict';
     $("#book").turn("page", parseInt(pageNum));
