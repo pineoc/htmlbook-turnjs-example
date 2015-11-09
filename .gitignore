@@ -1,10 +1,8 @@
 #resources
-www/img
-www/video
+#www/img
+#www/video
 
 #platforms resources - ios
-platforms/ios/www/img
-platforms/ios/www/video
 platforms/ios
 
 #platforms resources - android
@@ -12,7 +10,3 @@ platforms/android
 
 #plugins
 plugins/
-
-#data file
-www/js/analytics_value.js
-www/js/data

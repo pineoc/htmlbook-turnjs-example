@@ -4,7 +4,7 @@
 
 //book, turn.js setup
 var module = {
-    ratio: 0.75, //double: 1.5, single: 0.75
+    ratio: 0.75, //double page: 1.5, single page: 0.75
     currPage: 1,
     init: function (id) {
         'use strict';
@@ -83,6 +83,15 @@ var module = {
     plugins: function (pageNum) {
         'use strict';
         // run the plugin
+        //if you want double page,
+        /*
+        $(this.el).turn({
+            page: 1,
+            display: "double",
+            gradients: true,
+            acceleration: true
+        });
+        */
         $(this.el).turn({
             page: 1,
             display: "single",
