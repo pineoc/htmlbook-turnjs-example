@@ -1,31 +1,69 @@
-# htmlbook-kingkong
-
-cordova study project
+# htmlbook-turnjs-example
 
 
-Use HTML5 + Turn.js + Cordova
+HTML5 + Turn.js + Cordova
 E-Book application
 
+etc libs. + touchSwipe.js + fancybox.js
 
-##plugins
+###single page application
 
-cordova-plugin-device 1.0.1 "Device"
+file : js/turn_init.js
+```javascript 
+  module.ratio = 0.75,
+  ...
+  plugins: function (pageNum) {
+        'use strict';
+        // run the plugin
+        //if you want double page,
+        /*
+        $(this.el).turn({
+            page: 1,
+            display: "double",
+            gradients: true,
+            acceleration: true
+        });
+        */
+        $(this.el).turn({
+            page: 1,
+            display: "single",
+            gradients: true,
+            acceleration: true
+        });
+        // hide the body overflow
+        document.body.className = 'hide-overflow';
+    }
+```
 
-cordova-plugin-dialogs 1.1.1 "Notification"
+###double page application
 
-cordova-plugin-globalization 1.0.1 "Globalization"
+file : js/turn_init.js
+```javascript 
+  module.ratio = 1.5,
+  ...
+  plugins: function (pageNum) {
+        'use strict';
+        // run the plugin
+        //if you want double page,
+        /*
+        $(this.el).turn({
+            page: 1,
+            display: "double",
+            gradients: true,
+            acceleration: true
+        });
+        */
+        $(this.el).turn({
+            page: 1,
+            display: "double",
+            gradients: true,
+            acceleration: true
+        });
+        // hide the body overflow
+        document.body.className = 'hide-overflow';
+    }
+```
 
-cordova-plugin-google-analytics 0.8.0 "Google Universal Analytics Plugin"
-
-cordova-plugin-inappbrowser 1.0.1 "InAppBrowser"
-
-cordova-plugin-splashscreen 2.1.0 "Splashscreen"
-
-cordova-plugin-whitelist 1.0.0 "Whitelist"
-
-org.apache.cordova.file 1.3.3 "File"
-
-org.apache.cordova.file-transfer 0.5.0 "File Transfer"
 
 ##platforms
 ios
