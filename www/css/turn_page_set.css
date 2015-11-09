@@ -1,0 +1,80 @@
+#p1 {
+    background: #ccc url(../img/1.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#p2 {
+    background: #ccc url(../img/2.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+/*========page 2 tags=======*/
+.index-1 {
+    display: block;
+    position: absolute;
+    width: 15%;
+    height: 4%;
+    left: 9%;
+    top:25.5%;
+    border-width: 1px;
+    border-style: outset;
+}
+.index-2 {
+    display: block;
+    position: absolute;
+    width: 27%;
+    height: 10%;
+    left: 9%;
+    top:30.0%;
+    border-width: 1px;
+    border-style: outset;
+}
+/*========page 2 tags=======*/
+
+#p3 {
+    background: #ccc url(../img/3.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#p4 {
+    background: #ccc url(../img/4.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#p5 {
+    background: #ccc url(../img/5.jpg) no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+/*======page 5 tags=========*/
+#aImg5-1 img {
+    position: absolute;
+    left: 8.7%;
+    bottom: 21.8%;
+    width: 20.4%;
+    height: 28.82%;
+}
+
+#aImg5-2 img {
+    position: absolute;
+    left: 34.9%;
+    bottom: 21.8%;
+    width: 26.83%;
+    height: 28.82%;
+}
+/*======page 5 tags=========*/
